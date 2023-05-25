@@ -9,17 +9,25 @@
     "criteria": {
       "minecraft:eroded_badlands": "2023-05-23 23:11:10 +0530",
       "minecraft:sunflower_plains": "2023-05-24 14:39:17 +0530",
+      "minecraft:birch_forest": "2023-05-25 00:53:31 +0530",
+      "minecraft:windswept_hills": "2023-05-25 00:50:51 +0530",
       "minecraft:bamboo_jungle": "2023-05-23 18:50:01 +0530",
+      "minecraft:wooded_badlands": "2023-05-24 23:06:10 +0530",
       "minecraft:badlands": "2023-05-23 23:11:25 +0530",
+      "minecraft:savanna_plateau": "2023-05-24 18:10:32 +0530",
       "minecraft:beach": "2023-05-24 13:46:48 +0530",
+      "minecraft:mangrove_swamp": "2023-05-24 18:17:27 +0530",
       "minecraft:sparse_jungle": "2023-05-23 14:25:47 +0530",
       "minecraft:river": "2023-05-23 14:25:35 +0530",
       "minecraft:lukewarm_ocean": "2023-05-24 14:38:49 +0530",
+      "minecraft:stony_shore": "2023-05-24 23:04:59 +0530",
       "minecraft:dripstone_caves": "2023-05-23 16:38:58 +0530",
       "minecraft:forest": "2023-05-23 23:25:53 +0530",
       "minecraft:desert": "2023-05-23 18:51:40 +0530",
       "minecraft:jungle": "2023-05-23 14:23:53 +0530",
       "minecraft:ocean": "2023-05-24 14:39:08 +0530",
+      "minecraft:warm_ocean": "2023-05-24 23:00:46 +0530",
+      "minecraft:flower_forest": "2023-05-24 18:06:14 +0530",
       "minecraft:old_growth_birch_forest": "2023-05-24 10:03:45 +0530",
       "minecraft:savanna": "2023-05-23 14:52:03 +0530",
       "minecraft:plains": "2023-05-23 14:49:52 +0530"
@@ -587,7 +595,8 @@
       "bread": "2023-05-23 19:04:27 +0530",
       "melon_slice": "2023-05-23 14:32:54 +0530",
       "cooked_rabbit": "2023-05-23 23:31:39 +0530",
-      "cooked_chicken": "2023-05-23 18:02:22 +0530"
+      "cooked_chicken": "2023-05-23 18:02:22 +0530",
+      "cooked_salmon": "2023-05-24 23:55:42 +0530"
     },
     "done": false
   },
@@ -2314,6 +2323,216 @@
   "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
       "has_boat": "2023-05-24 13:46:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2023-05-24 17:59:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2023-05-24 18:03:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-05-24 18:03:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2023-05-24 18:03:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2023-05-24 18:20:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2023-05-24 18:20:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2023-05-24 18:20:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2023-05-24 18:20:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2023-05-24 18:20:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2023-05-24 18:54:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2023-05-24 23:07:45 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2023-05-25 00:37:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2023-05-24 23:27:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2023-05-24 22:54:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2023-05-24 22:54:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2023-05-24 22:54:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2023-05-24 22:54:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2023-05-25 00:37:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2023-05-25 00:37:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2023-05-24 22:39:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2023-05-24 22:39:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2023-05-24 23:07:45 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2023-05-24 23:07:45 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2023-05-24 23:44:56 +0530"
     },
     "done": true
   },
